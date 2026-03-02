@@ -1,0 +1,7 @@
+#gif {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}

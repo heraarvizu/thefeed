@@ -1,0 +1,130 @@
+body{ 
+    background-image: url("../img/background_feed.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.header-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+h1{
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 150px;
+  text-shadow: 6px 6px 6px black;
+}
+
+h2{
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 70px;
+  text-shadow: 6px 6px 6px black;
+}
+
+.title a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.title a:hover{
+  color: #F2CBC2;
+  text-shadow: 
+        0 0 5px #F2CBC2,
+        0 0 10px #F2CBC2,
+        0 0 20px #F2CBC2;
+}
+
+.intro{
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0 0 60px rgba(255, 255, 255, 0.7);
+}
+
+
+
+.continer{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    gap: 20px;                
+    margin-top: 30px;
+}
+
+p{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+  border: 5px #BFA5A3;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+    width: 80%;
+    padding: 30px;
+    min-height: 100vh;
+    background-color: #F2E0C9;
+    border-radius: 12px;
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+     url("../img/pink_flowers.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 10vh;
+    
+}
+
+article p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 23px;
+    line-height: 1.6;
+}
+
+article img {
+    display: flex;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.video{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 35%;
+  border-radius: 12px;
+}
